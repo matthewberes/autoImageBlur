@@ -1,0 +1,28 @@
+html{
+	width: 140px;
+	height: 75px;
+	background-image: 
+	url('background.png');
+}
+p{
+	font-family: serif; 
+	text-align: center; 
+
+}
+span{
+	font-family: serif;
+}
+i:hover{
+	color: grey;
+}
+.control{
+	position: absolute; 
+	top: 22;
+	}
+.control ul {
+    display: inline-block;
+    list-style-type: none;
+}
+.control li {
+    float: left;
+}
