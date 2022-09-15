@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<script src="jquery-3.1.1.js"></script>
+<script src="popup.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="popup.css">
+<html>
+<body>
+	<div id="home">
+		<i id="question" class="fa fa-question" style="position: absolute; top: 0; right: 0; text-align:right; padding-right: 1px; padding-top: 1px;"></i>
+		<p id="prompt"><strong>What elements should be blurred?</strong></p>
+		<div class="control" id ="control" style="padding-bottom: 8;">
+			<ul>
+				<li>
+					<label for="img"><input type="checkbox" id="img"/>&lt;img&gt;</label>
+				</li>
+				<li>
+					<label for="a"><input type="checkbox" id="a"/>&lt;a&gt;</label>
+				</li>
+			</ul>			
+		</div>
+	</div>
+	<div id="settings"  style="display: none;">
+		<i id="back" class="fa fa-arrow-left" style="position: absolute; top: 0; left: 0; text-align:right; padding-left: 1px; padding-top: 1px;"></i>
+		<div id="help" style="font-weight: normal;">
+			<p><strong>Help<br>&lt;img&gt;</strong>: image tags<br><strong>&lt;a&gt;</strong>: link tags<br></p>
+		</div>
+	</div>
+</body>
+</html>
